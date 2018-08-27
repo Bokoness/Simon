@@ -1,0 +1,215 @@
+body {
+    padding:0;
+    margin: 0;
+    background-color: #ECE7EE;
+    display: flex;
+    align-items: center;
+        justify-content: center;
+    font-family: Lobster, Monospace;
+    background-color: #cc9966;
+}
+
+.simon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.simonBody {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 10%;
+}
+
+.buttonRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.simonButton {
+    width: 300px;
+    height: 300px;
+    border: 20px solid black;
+    cursor: pointer;
+}
+
+/*Green button*/
+.greenButton {
+    border-radius: 100% 0 0 0;
+    background-color: #235B03;
+}
+.greenButtonOn {
+    border-radius: 100% 0 0 0;
+    background-color: #5CF304;
+}
+
+/*Red Button*/
+.redButton {
+    border-radius: 0 100% 0 0;
+    background-color: #810404;
+    box-shadow: 50px 25px 15px #292426;
+}
+.redButtonOn {
+    border-radius: 0 100% 0 0;
+    background-color: #F00000;
+    box-shadow: 50px 25px 15px #292426;
+}
+
+/*Yellow Button*/
+.yellowButton {
+    border-radius: 0 0 0 100%;
+    background-color: #A8A800;
+    box-shadow: 50px 25px 15px #292426;
+}
+.yellowButtonOn {
+    border-radius: 0 0 0 100%;
+    background-color: #F5F500;
+    box-shadow: 50px 25px 15px #292426;
+}
+
+/*Blue Button*/
+.blueButton {
+    border-radius: 0 0 100% 0;
+    background-color: #1A1D75;
+    box-shadow: 50px 25px 15px #292426;
+}
+.blueButtonOn {
+    border-radius: 0 0 100% 0;
+    background-color: #0009FF;
+    box-shadow: 50px 25px 15px #292426;
+}
+/*The simon's Menu*/
+.simonMenu {
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    height: 40%;
+    width: 40%;
+    border: 20px solid black;
+    border-radius: 100%;
+    background-color: #ECE7EE;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 35px 15px;
+}
+.menuButtonRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 5px;
+}
+
+.gameTitle {
+    margin-left: 23px;
+    text-decoration:underline;
+}
+
+.screen {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid #32050C;
+    width: 120px;
+    height: 60px;
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #888888;
+    font-size: 40px;
+    font-weight: normal;
+}
+.screenContent {
+  align-self: center;
+  margin-top: 5px;
+}
+.screenTitle {
+  margin-left: 33%; 
+}
+
+.onOff{
+    height: 16px;
+    width: 30px;
+    background-color: black;
+    font-size: 6px;
+    cursor: pointer;
+    color:white;
+    box-shadow: 5px 5px 5px #888888;
+    padding: 3px 2px 0 2px;
+    margin: 5px 0 2px 7px;
+    font-weight: bolder;
+}
+.on {
+    background-color: greenyellow;
+    height: 12px;
+    width: 14px;
+}
+.off {
+    background-color: maroon;
+    height: 12px;
+    width: 14px;
+    float:right;
+}
+
+.restartButton{
+    box-shadow: 2px 2px 2px #888888;
+    height: 40px;
+    width: 60px;
+    font-size:12px;
+    margin-right: 5px;
+    background-color: black;
+    color: red;
+    font-weight: bolder;
+}
+.strictButton{
+    box-shadow: 2px 2px 2px #888888;
+    height: 40px;
+    font-size:12px;
+    width: 60px;
+    background-color: black;
+    color: red;
+    font-weight: bolder;
+}
+
+.strictButtonPressed {
+    box-shadow: 2px 2px 2px #888888;
+    height: 40px;
+    font-size:12px;
+    width: 60px;
+    background-color: red;
+    color: black;
+    font-weight: bolder;
+}
+.levelScreenWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.levelScreen {
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+    border: 1px solid black;
+    width: 50px;
+    height: 25px;
+    margin: 5px 5px 0 5px;
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #888888;
+}
+.levelScreenButton {
+  cursor: pointer;
+}
+.levelLabel {
+    display:flex;
+    justify-content: center;
+}
+.bokoness{
+    z-index: 1;
+}
+
+
